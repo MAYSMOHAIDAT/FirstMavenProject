@@ -23,5 +23,9 @@ public class SauceHomePage {
 	
 	@FindBy (css=".inventory_item_price")
 	public List<WebElement>itemPrices;
+	
+	
+	@FindBy (xpath ="//span[text()='Products']")
+	public WebElement homepage_product_text;
 
 }
