@@ -16,23 +16,15 @@ public class SauceDemoLoginPage {
 
 public 	SauceDemoLoginPage()
 {
-	
-	
 	PageFactory.initElements(Driver.getDriver(), this);
 }
-
-
-
 //how do we collect webElements?
 
 @FindBy (id = "user-name")
 public WebElement loginUserName;
 
-
-
 @FindBy (id="password")
 public WebElement loginPassword;
-
 
 @FindBy (xpath = "//input[@id='login-button']")
 public WebElement LoginBtn;

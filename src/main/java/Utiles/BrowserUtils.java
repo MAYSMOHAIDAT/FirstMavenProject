@@ -122,4 +122,12 @@ public class BrowserUtils {
 		alert = driver.switchTo().alert();
 		return alert.getText();
 	}
-}
+
+	
+		
+	}
+
+	
+		
+	
+
